@@ -3,13 +3,14 @@
     margin-left: 24px;
 }
 
-.popular_lists_header {
+.part_headers {
     font-family: 'Playfair Display', serif;
     font-style: 700px;
     font-size: 20px;
     line-height: 27px;
     text-align: left;
-    margin-bottom: 8px;
+    margin-top: 35px;
+    margin-bottom: 16px;
 }
 
 .popular_lists_cards {
@@ -92,4 +93,18 @@
     margin-bottom: -15px;
     color: #D96F6E;
     font-size: 20px;
+}
+
+/* ====== Top 10 Authors Part =================*/
+.authors_card {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 5%;
+}
+
+.author_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400px;
+    text-align: center;
 }
