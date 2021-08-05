@@ -15,7 +15,7 @@
     width: 500px;
 }
 
-.lists-card_one {
+.lists_card_one {
     position: relative;
     width: 216px;
 }
@@ -54,7 +54,7 @@
     font-size: 25px;
 }
 
-.lists-card_two {
+.lists_card_two {
     position: relative;
     width: 216px;
     height: 128px;
