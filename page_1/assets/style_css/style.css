@@ -1,0 +1,94 @@
+.container {
+    margin-left: 24px;
+}
+
+.popular_lists_header {
+    font-family: 'Playfair Display', serif;
+    font-style: 700px;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.popular_lists_cards {
+    width: 500px;
+}
+
+.lists-card_one {
+    position: relative;
+    width: 216px;
+}
+
+.card_main_img {
+    position: relative;
+    margin-left: 0px;
+    background-color: #D96F6E;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.card_inner_img {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+
+}
+
+.list_card_text {
+    position: absolute;
+    top: 55%;
+    left: 7%;
+    color: #ffffff;
+}
+
+.card_small_text {
+    margin-bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.card_big_text {
+    margin-top: -3%;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+.lists-card_two {
+    position: relative;
+    width: 216px;
+    height: 128px;
+    display: flex;
+    margin-top: -26%;
+    margin-left: 47%;
+    background: linear-gradient(270deg, rgb(206, 222, 228), rgb(205, 241, 242));
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.card_two_text {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.list_card_number {
+    font-size: 45px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: #D96F6E;
+    background: -webkit-linear-gradient(to right, #D96F6E 0%, #F2D05C 100%);
+    background: -moz-linear-gradient(to right, #D96F6E 0%, #F2D05C 100%);
+    background: linear-gradient(to right, #D96F6E 0%, #F2D05C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.list_number_text {
+    margin-top: 0px;
+    margin-bottom: -15px;
+    color: #D96F6E;
+    font-size: 20px;
+}
