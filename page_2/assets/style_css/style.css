@@ -1,0 +1,36 @@
+/* ====== Share this book Part =================*/
+.social_icons {
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.social_icons_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4F4F4F;
+}
+
+a {
+    margin-top: 10px;
+}
+
+.fab {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-left: 3%;
+    padding-top: 7px;
+    text-align: center;
+    line-height: 40px;
+    background: #53889D;
+    font-size: 22px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.fab:hover {
+    background: #195168;
+    transition: 0.5s;
+}
