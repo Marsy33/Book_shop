@@ -1,0 +1,16 @@
+.links {
+text-align: center;
+}
+
+.link_inner {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600px;
+    color: #D96F6E;
+    text-decoration: underline;
+}
+
+.link_inner:hover {
+    color:#8f0806; 
+    transition: 0.5s;
+}
