@@ -1,5 +1,87 @@
+/* ===== Favorite genres ====== */
+.favorite_genres {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 2vh;
+}
+
+.favorite_genres_padding {
+    padding-left: 7vw;
+}
+
+.btn_favorit_genres {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8vh;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    height: 4.3vh;
+}
+
+.btn_blue2 {
+    background: linear-gradient(to right, #53889D, #b3b9c5);
+}
+
+.btn_orange2 {
+    background: linear-gradient(to right, #ffc577, #f39474);
+}
+
+.btn_pink {
+    background: linear-gradient(to right, #f39474, #d85c7b);
+}
+
+.btn_yellow {
+    background: linear-gradient(to right, #beceee, #ffc577);
+}
+
+.btn_red {
+    background: linear-gradient(to right, #d85c7b, #ffc577);
+}
+
+.btn_line2,
+.btn_line3 {
+    margin-top: 0.5vh;
+}
+
+#fg_btn1 {
+    width: 20vw;
+}
+
+#fg_btn2 {
+    width: 21vw;
+}
+
+#fg_btn3 {
+    width: 35vw;
+}
+
+#fg_btn4 {
+    width: 40vw;
+}
+
+#fg_btn5 {
+    width: 22vw;
+}
+
+#fg_btn6 {
+    width: 47vw;
+}
+
+#fg_btn7 {
+    width: 26vw;
+}
+
 .links {
-text-align: center;
+    text-align: center;
 }
 
 .link_inner {
@@ -11,6 +93,6 @@ text-align: center;
 }
 
 .link_inner:hover {
-    color:#8f0806; 
+    color: #8f0806;
     transition: 0.5s;
 }
