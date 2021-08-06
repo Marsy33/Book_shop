@@ -1,3 +1,39 @@
+/* ========= Genres ========= */
+.genres {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vh;
+    line-height: 2vh;
+    color: #4F4F4F;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.button_contemporary,
+.button_general_fiction {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8vh;
+    line-height: 15px;
+    color: #FFFFFF;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    width: 30vw;
+    height: 4.3vh;
+}
+
+.btn_orange {
+    background: linear-gradient(to right, #ffc577, #f39474);
+    margin-left: 20vw;
+}
+
+.btn_blue {
+    background: linear-gradient(to right, #53889D, #b3b9c5);
+}
+
 /* ====== Share this book Part =================*/
 .social_icons {
     text-align: center;
