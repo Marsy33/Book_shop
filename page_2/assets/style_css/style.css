@@ -70,3 +70,65 @@ a {
     background: #195168;
     transition: 0.5s;
 }
+
+/* ====== Similar Publications =================*/
+.part_headers {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 16px;
+}
+
+.similar_publications {
+    width: 100vw;
+    height: 305px;
+    overflow: auto;
+}
+
+@media (max-width: 414px) {
+    .scroller {
+        float: left;
+        /*makes it shrink-wrap all the floating divs inside*/
+        margin-right: -999em;
+        /* allows the width expanding beyond parent edge to give adjacent space */
+    }
+}
+
+.scroller div {
+    float: left;
+    margin: 0 16px 0 0;
+    width: 143px;
+    height: 216px;
+}
+
+.book_name {
+    margin: 4px 0 0;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.book_author {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16.8px;
+    color: rgba(79, 79, 79, 1);
+}
+
+.book_price {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(217, 111, 110, 1);
+}

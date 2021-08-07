@@ -5,7 +5,7 @@
 
 .part_headers {
     font-family: 'Playfair Display', serif;
-    font-style: 700px;
+    font-weight: 700;
     font-size: 20px;
     line-height: 27px;
     text-align: left;
@@ -107,4 +107,82 @@
     font-size: 12px;
     font-weight: 400px;
     text-align: center;
+}
+
+/* ====== Latest Arrivals Part =================*/
+.latest_arrivals {
+    width: 100vw;
+    height: 300px;
+    overflow: auto;
+}
+
+@media (max-width: 414px) {
+    .scroller {
+        float: left;
+        /*makes it shrink-wrap all the floating divs inside*/
+        margin-right: -999em;
+        /* allows the width expanding beyond parent edge to give adjacent space */
+    }
+}
+
+.scroller div {
+    float: left;
+    margin: 0 16px 0 0;
+    width: 143px;
+    height: 216px;
+}
+
+.scroller a {
+    text-decoration: none;
+}
+
+.book_name {
+    margin: 8px 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.book_author {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
+    color: rgba(79, 79, 79, 1);
+}
+
+/* ====== Popular Genres =================*/
+.popular_genres {
+    display: grid;
+    grid-template-columns: repeat(4, 76px);
+    grid-template-rows: repeat(3, 117px);
+    gap: 8px;
+}
+
+.genres_box {
+    display: grid;
+    grid-template-columns: 76px;
+    grid-template-rows: 76px 41px;
+    height: 76px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+    border-radius: 8px;
+
+}
+
+.genres_name {
+    margin-top: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
+    text-align: center;
+    color: rgba(79, 79, 79, 1);
+}
+
+.genres_icon {
+    margin: auto;
 }

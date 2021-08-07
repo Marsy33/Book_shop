@@ -96,3 +96,68 @@
     color: #8f0806;
     transition: 0.5s;
 }
+
+/* ===== Purchased Books ====== */
+.part_headers {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 16px;
+}
+
+.purchased_books {
+    width: 100vw;
+    height: 280px;
+    overflow: auto;
+}
+
+.books {
+    display: inline-block;
+}
+
+.books_number {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
+}
+
+
+@media (max-width: 414px) {
+    .scroller {
+        float: left;
+        /*makes it shrink-wrap all the floating divs inside*/
+        margin-right: -999em;
+        /* allows the width expanding beyond parent edge to give adjacent space */
+    }
+}
+
+.scroller div {
+    float: left;
+    width: 130px;
+    height: 202px;
+    margin: 0 16px 0 0;
+}
+
+.book_name {
+    margin: 4px 0 0;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.book_author {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16.8px;
+    color: rgba(79, 79, 79, 1);
+}
