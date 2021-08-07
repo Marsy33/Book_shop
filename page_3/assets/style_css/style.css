@@ -1,3 +1,35 @@
+/* ====== Header and Nav Part =================*/
+header {
+    height: 50px;
+    -webkit-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+    -moz-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+    box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+}
+
+.header_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4F4F4F;
+}
+
+.fas {
+    color: #53889D;
+    padding-left: 20px;
+}
+
+.fas:hover {
+    color: #053244;
+    transition: 0.5s;
+}
+
 /* ===== Favorite genres ====== */
 .favorite_genres {
     font-family: Montserrat;

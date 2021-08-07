@@ -1,3 +1,27 @@
+/* ====== Header and Nav Part =================*/
+header {
+    height: 50px;
+    -webkit-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+    -moz-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+    box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fas {
+    color: #53889D;
+    padding-left: 20px;
+}
+
+.fas:hover {
+    color: #053244;
+    transition: 0.5s;
+}
+
 /* ========= Genres ========= */
 .genres {
     font-family: Montserrat;
