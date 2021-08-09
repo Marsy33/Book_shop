@@ -22,6 +22,56 @@ header {
     transition: 0.5s;
 }
 
+/*===== Conversations with Friends ===== */
+.img_conversations {
+    display: block;
+    margin: auto;
+}
+
+.h1_conversations {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 7vw;
+    line-height: 10vw;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0.5vw;
+}
+
+.p1_conversations {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.6vh;
+    line-height: 6vw;
+    text-align: center;
+    color: #000000;
+    margin-top: 0.5vh;
+    margin-bottom: 0.6vh;
+}
+
+.p2_conversations {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 140%;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 0.8vh;
+}
+
+.price {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4vh;
+    line-height: 6vh;
+    text-align: center;
+    color: #000000;
+}
+
 /* ========= Genres ========= */
 .genres {
     font-family: Montserrat;
