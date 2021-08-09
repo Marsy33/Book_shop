@@ -22,6 +22,45 @@ header {
     transition: 0.5s;
 }
 
+/*===== 2 buttons: Add to Cart, Wishlist Parts ===== */
+.large_buttons {
+    margin: 10px 10px;
+}
+
+.large_btn {
+    display: inline;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 95%;
+    border-radius: 8px;
+    border:none
+}
+
+.button_one {
+    background: #D96F6E;
+}
+
+.button_two {
+    background: #F3A492;
+}
+
+.button_one:hover {
+    background: #e03735;
+    transition: 0.5s;
+}
+
+.button_two:hover {
+    background: #e78069;
+    transition: 0.5s;
+}
+
 /*===== Conversations with Friends ===== */
 .img_conversations {
     display: block;
@@ -131,11 +170,12 @@ a {
     height: 40px;
     width: 40px;
     margin-left: 3%;
+    padding-left: 3px;
     padding-top: 7px;
     text-align: center;
     line-height: 40px;
     background: #53889D;
-    font-size: 22px;
+    font-size: 25px;
     border-radius: 50%;
     color: #fff;
 }
