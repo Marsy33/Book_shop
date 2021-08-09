@@ -30,6 +30,67 @@ header {
     transition: 0.5s;
 }
 
+/*==== Jessica Mapleton =====*/
+.img_jessica {
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+
+.h1_jessica {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5vh;
+    line-height: 6vh;
+    text-align: center;
+    color: #000000;
+}
+
+.p_cape_town {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5vh;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #828282;
+}
+
+.flex_follow {
+    display: flex;
+    justify-content: center;
+}
+
+.div_follow {
+    margin: 1.5vh 6vh 3vh 6vh;
+}
+
+.p_follow {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5vh;
+    line-height: 1.8vh;
+    text-align: center;
+    color: #4F4F4F;
+    margin-bottom: 1vh;
+}
+
+.p_number {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5vh;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
 /* ===== Favorite genres ====== */
 .favorite_genres {
     font-family: Montserrat;
