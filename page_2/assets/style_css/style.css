@@ -40,45 +40,6 @@ header {
     transition: 0.5s;
 }
 
-/*===== 2 buttons: Add to Cart, Wishlist Parts ===== */
-.large_buttons {
-    margin: 10px 10px;
-}
-
-.large_btn {
-    display: inline;
-    text-align: center;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight:bold;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-bottom: 10px;
-    height: 40px;
-    width: 95%;
-    border-radius: 8px;
-    border:none
-}
-
-.button_one {
-    background: #D96F6E;
-}
-
-.button_two {
-    background: #F3A492;
-}
-
-.button_one:hover {
-    background: #e03735;
-    transition: 0.5s;
-}
-
-.button_two:hover {
-    background: #e78069;
-    transition: 0.5s;
-}
-
 /*===== Conversations with Friends ===== */
 .img_conversations {
     display: block;
@@ -129,6 +90,57 @@ header {
     color: #000000;
 }
 
+/*===== 2 buttons: Add to Cart, Wishlist Parts ===== */
+.large_buttons {
+    margin: 10px 10px;
+}
+
+.large_btn {
+    display: inline;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 95%;
+    border-radius: 8px;
+    border: none
+}
+
+.button_one {
+    background: #D96F6E;
+}
+
+.button_two {
+    background: #F3A492;
+}
+
+.button_one:hover {
+    background: #e03735;
+    transition: 0.5s;
+}
+
+.button_two:hover {
+    background: #e78069;
+    transition: 0.5s;
+}
+
+/*==== Publisher: Faber & Faber... ====*/
+.text_publisher {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7vh;
+    line-height: 140%;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 0.5vh;
+}
+
 /* ========= Genres ========= */
 .genres {
     font-family: Montserrat;
@@ -138,7 +150,7 @@ header {
     line-height: 2vh;
     color: #4F4F4F;
     text-align: center;
-    margin-bottom: 2vh;
+    margin: 4vh 0 2vh 0;
 }
 
 .button_contemporary,
@@ -278,19 +290,19 @@ footer {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    width:90%;
+    width: 90%;
     margin-left: 5%;
-   
-    
+
+
 }
 
 .footer_img {
     text-align: center;
     padding-top: 5%;
- 
+
 }
 
-.footer_text{
+.footer_text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 10px;
