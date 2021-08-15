@@ -47,22 +47,26 @@ header {
 }
 
 .h1_conversations {
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 7vw;
-    line-height: 10vw;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
     text-align: center;
     color: #000000;
     margin-bottom: 0.5vw;
 }
 
+@media screen and (max-width: 320px) {
+    .h1_conversations {
+        font-size: 22px;
+    }
+}
+
 .p1_conversations {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.6vh;
-    line-height: 6vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     text-align: center;
     color: #000000;
     margin-top: 0.5vh;
@@ -70,62 +74,95 @@ header {
 }
 
 .p2_conversations {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2vh;
-    line-height: 140%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
     text-align: center;
     color: #828282;
     margin-bottom: 0.8vh;
 }
 
 .price {
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 4vh;
-    line-height: 6vh;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
     text-align: center;
     color: #000000;
 }
 
+
 /* ===Text=== */
+.text_conversations {
+    margin-left: 6vw;
+}
+
 .text_conversations {
     /* A blurb about the book goes here. A few sentences that are nice and easy to read. Like one that’s enticing... read more */
     /* Body L */
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.5vh;
-    line-height: 1em;
-    padding-bottom: 0.5em;
+    width: 87vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     padding-top: 0.5em;
-    /* or 150% */
+    padding-bottom: 0.5em;
     text-align: center;
-
     color: #000000;
+}
+
+@media screen and (max-width: 320px) {
+    .text_conversations p {
+        font-size: 14px;
+    }
+}
+
+.text_conversations a {
+    color: #5D8FA3;
 }
 
 /*===== 2 buttons: Add to Cart, Wishlist Parts ===== */
 .large_buttons {
-    margin: 10px 10px;
+    margin: 2vh 0 2vh 18vw;
 }
 
 .large_btn {
-    display: inline;
+    display: inline-block;
     text-align: center;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
     color: #ffffff;
-    margin-bottom: 10px;
     height: 40px;
-    width: 95%;
+    width: 296px;
     border-radius: 8px;
-    border: none
+    margin-bottom: 10px;
+    border: none;
+}
+
+@media screen and (max-width: 425px) {
+    .large_buttons {
+        margin: 2vh 0 2vh 6vw;
+
+    }
+
+    .large_btn {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 834px) and (min-width: 426px) {
+
+    .large_buttons {
+        margin: 2vh 0 2vh 7vw;
+    }
+
+    .large_btn {
+        margin-bottom: 10px;
+    }
 }
 
 .button_one {
@@ -148,50 +185,66 @@ header {
 
 /*==== Publisher: Faber & Faber... ====*/
 .text_publisher {
-    font-family: Montserrat;
+    margin-bottom: 0.5vh;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.7vh;
+    font-size: 12px;
     line-height: 140%;
     text-align: center;
     color: #828282;
-    margin-bottom: 0.5vh;
 }
 
 /* ========= Genres ========= */
 .genres {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 3vh;
-    line-height: 2vh;
-    color: #4F4F4F;
+    margin: 3vh 0 0.5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
     text-align: center;
-    margin: 4vh 0 2vh 0;
+    color: rgba(79, 79, 79, 1);
 }
 
 .button_contemporary,
 .button_general_fiction {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.7vh;
+    width: 200px;
+    height: 3.5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
     line-height: 15px;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);
     border-radius: 12px;
     border-style: solid;
-    border-color: #FFFFFF;
-    width: 30vw;
-    height: 4.3vh;
+    border-color: rgba(255, 255, 255, 1);
 }
 
 .btn_orange {
     background: linear-gradient(to right, #ffc577, #f39474);
-    margin-left: 20vw;
+    margin-left: 36%;
 }
 
 .btn_blue {
     background: linear-gradient(to right, #53889D, #b3b9c5);
+}
+
+@media screen and (max-width: 834px) and (min-width: 426px) {
+    .btn_orange {
+        margin-left: 25vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .button_contemporary,
+    .button_general_fiction {
+        width: 34vw;
+    }
+
+    .btn_orange {
+        margin-left: 15vw;
+    }
 }
 
 /* ====== Share this book Part =================*/
@@ -218,6 +271,7 @@ a {
     width: 40px;
     margin-left: 3%;
     padding-left: 3px;
+    padding-right: 3px;
     padding-top: 7px;
     text-align: center;
     line-height: 40px;
@@ -234,42 +288,46 @@ a {
 
 /* ====== Similar Publications =================*/
 .part_headers {
+    margin-top: 35px;
+    margin-bottom: 16px;
+    margin-left: 8px;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
     text-align: left;
-    margin-top: 35px;
-    margin-bottom: 16px;
 }
 
 .similar_publications {
     width: 100vw;
     height: 305px;
+    margin-left: 8px;
+    margin-bottom: 35px;
     overflow: auto;
 }
 
-@media (max-width: 414px) {
-    .scroller {
-        float: left;
-        /*makes it shrink-wrap all the floating divs inside*/
-        margin-right: -999em;
-        /* allows the width expanding beyond parent edge to give adjacent space */
-    }
+.scroller {
+    float: left;
+    margin-right: -999em;
 }
 
 .scroller div {
     float: left;
-    margin: 0 16px 0 0;
+    margin-right: 16px;
     width: 143px;
     height: 216px;
+}
+
+@media screen and (max-width: 425px) {
+    .scroller div {
+        margin-right: 4vw;
+    }
 }
 
 .book_name {
     margin: 4px 0 0;
     font-family: 'Playfair Display', serif;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 21px;
     color: rgba(0, 0, 0, 1);
@@ -278,8 +336,7 @@ a {
 .book_author {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 12px;
     line-height: 16.8px;
     color: rgba(79, 79, 79, 1);
@@ -288,6 +345,7 @@ a {
 .book_price {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
@@ -300,7 +358,6 @@ footer {
     -webkit-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
     -moz-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
     box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
-
 }
 
 .nav_footer {
@@ -308,15 +365,13 @@ footer {
     justify-content: space-between;
     text-align: center;
     width: 90%;
-    margin-left: 5%;
-
-
+    margin-left: 6%;
+    padding-top: 1vh;
 }
 
 .footer_img {
     text-align: center;
     padding-top: 5%;
-
 }
 
 .footer_text {
