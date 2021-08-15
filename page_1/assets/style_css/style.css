@@ -65,26 +65,28 @@ header {
 }
 
 .welcome_heading {
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    color: #000000;
+    width: 70vw;
+    margin-left: 1rem;
     padding-top: 1em;
     padding-bottom: 0.5em;
-    line-height: 1;
-    margin-left: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
 }
-    
-.welcome_small_text
-{
-font-family: 'Montserrat',  sans-serif;
-color: #000000;
-font-style: normal;
-font-weight: normal;
-font-size: normal;
-line-height: 0.5;
-color: #000000;
-margin-left: 1rem;
-}  
+
+.welcome_small_text {
+    width: 87vw;
+    margin-left: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+
 .popular_lists_cards {
     width: 500px;
 }
@@ -181,6 +183,20 @@ margin-left: 1rem;
     text-align: center;
 }
 
+.author_image {
+    display: block;
+    margin: auto;
+    padding-bottom: 0.5vh;
+}
+
+@media screen and(max-width: 425px) {
+    .authors_card {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-column-gap: 5%;
+    }
+}
+
 /* ====== Latest Arrivals Part =================*/
 .latest_arrivals {
     width: 100vw;
@@ -188,20 +204,22 @@ margin-left: 1rem;
     overflow: auto;
 }
 
-@media (max-width: 414px) {
-    .scroller {
-        float: left;
-        /*makes it shrink-wrap all the floating divs inside*/
-        margin-right: -999em;
-        /* allows the width expanding beyond parent edge to give adjacent space */
-    }
+.scroller {
+    float: left;
+    margin-right: -999em;
 }
 
 .scroller div {
     float: left;
-    margin: 0 16px 0 0;
+    margin-right: 16px;
     width: 143px;
     height: 216px;
+}
+
+@media screen and (max-width: 425px) {
+    .scroller div {
+        margin-right: 4vw;
+    }
 }
 
 .scroller a {
@@ -209,7 +227,7 @@ margin-left: 1rem;
 }
 
 .book_name {
-    margin: 8px 0;
+    margin: 8px 0 0 0;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 16px;
@@ -218,7 +236,6 @@ margin-left: 1rem;
 }
 
 .book_author {
-    margin: 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -229,9 +246,10 @@ margin-left: 1rem;
 /* ====== Popular Genres =================*/
 .popular_genres {
     display: grid;
-    grid-template-columns: repeat(4, 76px);
-    grid-template-rows: repeat(3, 117px);
+    grid-template-columns: repeat(6, 76px);
+    grid-template-rows: repeat(2, 117px);
     gap: 8px;
+    text-align: center;
 }
 
 .genres_box {
@@ -256,16 +274,68 @@ margin-left: 1rem;
 }
 
 .genres_icon {
+    display: block;
     margin: auto;
+}
+
+@media screen and (max-width: 425px) and (min-width: 376px) {
+    .popular_genres {
+        display: grid;
+        grid-template-columns: repeat(4, 76px);
+        grid-template-rows: repeat(3, 117px);
+        margin-left: 3vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .popular_genres {
+        display: grid;
+        grid-template-columns: repeat(4, 76px);
+        grid-template-rows: repeat(3, 117px);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .popular_genres {
+        display: grid;
+        grid-template-columns: repeat(4, 20vw);
+        grid-template-rows: repeat(3, 30vw);
+        gap: 2%;
+        text-align: center;
+    }
+
+    .genres_box {
+        display: grid;
+        grid-template-columns: 20vw;
+        grid-template-rows: 20vw 10vw;
+        height: 10vh;
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+        border-radius: 8px;
+    }
+
+    .genres_name {
+        margin-top: 0.5vh;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16.8px;
+        text-align: center;
+        color: rgba(79, 79, 79, 1);
+    }
+
+    .genres_icon {
+        margin: auto;
+    }
 }
 
 /* ====== Footer =================*/
 footer {
     height: 15%;
+    margin-top: 4.5vh;
     -webkit-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
     -moz-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
     box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
-
 }
 
 .nav_footer {
@@ -273,15 +343,13 @@ footer {
     justify-content: space-between;
     text-align: center;
     width: 90%;
-    margin-left: 5%;
-
-
+    margin-left: 6%;
+    padding-top: 1vh;
 }
 
 .footer_img {
     text-align: center;
     padding-top: 5%;
-
 }
 
 .footer_text {
