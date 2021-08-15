@@ -58,7 +58,7 @@ header {
 
 
 .h1_jessica {
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 4.5vh;
@@ -68,7 +68,7 @@ header {
 }
 
 .p_cape_town {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5vh;
@@ -89,9 +89,8 @@ header {
 }
 
 .p_follow {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 1.5vh;
     line-height: 1.8vh;
     text-align: center;
@@ -100,9 +99,8 @@ header {
 }
 
 .p_number {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 2.5vh;
     line-height: 24px;
     text-align: center;
@@ -111,23 +109,21 @@ header {
 
 /* ===== Favorite genres ====== */
 .favorite_genres {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     color: #333333;
     margin-bottom: 2vh;
 }
 
-.favorite_genres_padding {
-    padding-left: 7vw;
+.favorite_genres_margin {
+    margin-left: 7vw;
 }
 
 .btn_favorit_genres {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 1.8vh;
     line-height: 15px;
     text-align: center;
@@ -157,6 +153,7 @@ header {
 .btn_red {
     background: linear-gradient(to right, #d85c7b, #ffc577);
 }
+
 
 .btn_line2,
 .btn_line3 {
@@ -192,7 +189,14 @@ header {
 }
 
 .links {
-    text-align: center;
+    margin-top: 2vh;
+    margin-left: 7vw;
+}
+
+@media screen and (max-width: 768px) {
+    .links {
+        text-align: center;
+    }
 }
 
 .link_inner {
@@ -242,9 +246,7 @@ header {
 @media (max-width: 425px) {
     .scroller {
         float: left;
-        /*makes it shrink-wrap all the floating divs inside*/
         margin-right: -999em;
-        /* allows the width expanding beyond parent edge to give adjacent space */
     }
 }
 
@@ -253,6 +255,12 @@ header {
     width: 130px;
     height: 202px;
     margin: 0 16px 0 0;
+}
+
+@media (max-width: 320px) {
+    .scroller div {
+        margin: 0 2vw 0 0;
+    }
 }
 
 .book_name {
@@ -277,6 +285,19 @@ header {
 
 /* ====== Wishlist =================*/
 
+.container_purchased_books,
+.container_wishlist {
+    margin-left: 7vw;
+}
+
+@media screen and (max-width: 425px) {
+
+    .container_purchased_books,
+    .container_wishlist {
+        margin-left: 7vw;
+    }
+}
+
 .scroller_wish {
     width: 100vw;
     overflow: auto;
@@ -285,6 +306,7 @@ header {
 .wishlist {
     float: left;
     margin-right: -999em;
+    width: 87vw;
 }
 
 /* masonry gallery */
@@ -330,10 +352,10 @@ header {
 /* ====== Footer =================*/
 footer {
     height: 15%;
+    margin-top: 3vh;
     -webkit-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
     -moz-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
     box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
-
 }
 
 .nav_footer {
@@ -342,14 +364,12 @@ footer {
     text-align: center;
     width: 90%;
     margin-left: 5%;
-
-
+    padding-top: 1vh;
 }
 
 .footer_img {
     text-align: center;
     padding-top: 5%;
-
 }
 
 .footer_text {
