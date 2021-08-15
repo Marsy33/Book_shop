@@ -229,7 +229,13 @@ header {
     background: linear-gradient(to right, #53889D, #b3b9c5);
 }
 
-@media screen and (max-width: 834px) and (min-width: 426px) {
+@media screen and (max-width: 834px) and (min-width: 769px) {
+    .btn_orange {
+        margin-left: 27vw;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
     .btn_orange {
         margin-left: 25vw;
     }
