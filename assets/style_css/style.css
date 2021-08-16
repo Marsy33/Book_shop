@@ -235,6 +235,10 @@ header {
     color: rgba(0, 0, 0, 1);
 }
 
+.book_name_a {
+    color: rgba(0, 0, 0, 1);
+}
+
 .book_author {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -356,5 +360,9 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 0.65em;
+    color: #53889D;
+}
+
+.profile_a {
     color: #53889D;
 }
