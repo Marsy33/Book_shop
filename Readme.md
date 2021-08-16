@@ -24,13 +24,19 @@ The latest version can be found in the GitHub repository at [Book shop](https://
 ##   Installation
 
 #### Page 1 
-[page_1_a.png](https://github.com/Marsy33/Book_shop/blob/master/assets/images/page_1_a.png)
+![page_1_a.png](https://github.com/Marsy33/Book_shop/blob/master/assets/images/page_1_a.png?raw=true)
 
-[page_1_b.png](https://github.com/Marsy33/Book_shop/blob/master/assets/images/page_1_b.png)
+![page_1_b.png](https://github.com/Marsy33/Book_shop/blob/master/assets/images/page_1_b.png?raw=true)
 
-#### Page2
+#### Page 2
 ![page_2_a.png](https://github.com/Marsy33/Book_shop/blob/master/page_2/assets/images/page_2_a.png?raw=true)
 
+![page_2_b.png](https://github.com/Marsy33/Book_shop/blob/master/page_2/assets/images/page_2_b.png?raw=true)
+
+#### Page 3
+![page_3_a.png](https://github.com/Marsy33/Book_shop/blob/master/page_3/assets/images/page_3_a.png?raw=true)
+
+![page_3_b.png](https://github.com/Marsy33/Book_shop/blob/master/page_3/assets/images/page_3_b.png?raw=true)
 ## Сreator
 
 - [Altynay88](https://github.com/Altynay88)
