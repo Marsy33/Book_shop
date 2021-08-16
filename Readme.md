@@ -24,7 +24,12 @@ The latest version can be found in the GitHub repository at [Book shop](https://
 ##   Installation
 
 #### Page 1 
-![page_1_a.png](/Users/admin/Desktop/clone/Book_shop/assets/images)
+[page_1_a.png](https://github.com/Marsy33/Book_shop/blob/master/assets/images/page_1_a.png)
+
+[page_1_b.png](https://github.com/Marsy33/Book_shop/blob/master/assets/images/page_1_b.png)
+
+#### Page2
+![page_2_a.png](https://github.com/Marsy33/Book_shop/blob/master/page_2/assets/images/page_2_a.png?raw=true)
 
 ## Сreator
 
