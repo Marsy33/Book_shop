@@ -8,9 +8,9 @@ This is our first group project within the framework of training in [itgirlschoo
 The latest version can be found in the GitHub repository at [Book shop](https://github.com/Marsy33/Book_shop.git).
 
 ##   Documentation
-[Page 1 - HTML](https://github.com/Marsy33/Book_shop/blob/master/page_1/index.html)
+[Page 1 - HTML](https://github.com/Marsy33/Book_shop/blob/master/index.html)
 
-[Page 1 - CSS](https://github.com/Marsy33/Book_shop/blob/master/page_1/assets/style_css/style.css)
+[Page 1 - CSS](https://github.com/Marsy33/Book_shop/blob/master/assets/style_css/style.css)
 
 [Page 2- HTML](https://github.com/Marsy33/Book_shop/blob/master/page_2/index.html)
 
