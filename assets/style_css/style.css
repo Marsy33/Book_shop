@@ -88,7 +88,9 @@ header {
 
 
 .popular_lists_cards {
-    width: 500px;
+    width: 100vw;
+    height: 170px;
+    overflow: auto;
 }
 
 .lists_card_one {
@@ -135,8 +137,8 @@ header {
     width: 216px;
     height: 128px;
     display: flex;
-    margin-top: -26%;
-    margin-left: 47%;
+    margin-top: -32.5%;
+    margin-left: 62%;
     background: linear-gradient(270deg, rgb(206, 222, 228), rgb(205, 241, 242));
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -167,6 +169,22 @@ header {
     margin-bottom: -15px;
     color: #D96F6E;
     font-size: 20px;
+}
+
+@media screen and (min-width: 388px) {
+
+    .popular_lists_cards {
+        width: 500px;
+    }
+
+    .lists_card_two {
+        position: relative;
+        width: 216px;
+        height: 128px;
+        display: flex;
+        margin-top: -25%;
+        margin-left: 47%;
+    }
 }
 
 /* ====== Top 10 Authors Part =================*/
@@ -349,20 +367,12 @@ footer {
     width: 90%;
     margin-left: 6%;
     padding-top: 1vh;
-}
-
-.footer_img {
-    text-align: center;
-    padding-top: 5%;
+  
 }
 
 .footer_text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 0.65em;
-    color: #53889D;
-}
-
-.profile_a {
     color: #53889D;
 }
